@@ -30,6 +30,12 @@ import org.bimserver.database.DatabaseSession;
 import org.bimserver.BimserverDatabaseException;
 import org.bimserver.database.OldQuery;
 
+import org.bimserver.models.geometry.GeometryData;
+import org.bimserver.models.geometry.GeometryFactory;
+import org.bimserver.models.geometry.GeometryInfo;
+import org.bimserver.models.geometry.GeometryPackage;
+import org.bimserver.models.geometry.Vector3f;
+
 public class SConverter {
 <%
 	try {
